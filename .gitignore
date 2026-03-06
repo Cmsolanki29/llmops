@@ -1,5 +1,11 @@
 Cenv/
 logs/
 RAG_Medcal_Chatbot.egg-info/
-.env/
+# ignore environment files
+.env
+*.env
+
+# python ignores
+__pycache__/
+*.pyc
 
